@@ -42,8 +42,8 @@ public class HandleTruthTest {
 
     //test 5
     @Test
-    public void checkAnd(){
-        //check for number of word "and"
-        assertEquals(8, HandleTruth.wordCount("and"));
+    public void checkHello(){
+        //check for number of word "hello" - which should not exist
+        assertEquals(0, HandleTruth.wordCount("hello"));
     }
 }
