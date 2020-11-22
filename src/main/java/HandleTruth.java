@@ -24,8 +24,6 @@ public class HandleTruth {
         int num = 0;
         if(wordMap.containsKey(w)){
             num = wordMap.get(w);
-        }else if(!wordMap.containsKey(w)){
-            num = 0;
         }
 
         for(Map.Entry<String, Integer> entry : wordMap.entrySet()) {
